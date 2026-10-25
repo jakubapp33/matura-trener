@@ -5,6 +5,10 @@ Aplikacja (PWA na iPhone'a) do nauki do matury podstawowej z **polskiego, angiel
 - cały arkusz (trening albo egzamin z zegarem), zadania z jednego działu, same zamknięte albo same otwarte,
 - zamknięte sprawdzane automatycznie, otwarte – samoocena z oficjalnymi zasadami oceniania CKE,
 - postęp, powtórka błędów, statystyki; wszystko zapisane w telefonie, działa offline.
+- **Nauka**: gramatyka angielska (16 lekcji + ćwiczenia), typowe zadania z matematyki (metody, pułapki, trening), lektury z polskiego (streszczenia, bohaterowie, motywy, konteksty, quizy), słowniczek pojęć, poradnik do pisemnego,
+- **matura ustna**: 76 pytań jawnych CKE z polskiego (2026–2028) i symulacja egzaminu z angielskiego – zegar, nagrywanie, samoocena.
+
+Treści do nauki są w `src/learn/` (lekcje, lektury, pytania), lista pytań jawnych pochodzi z komunikatu CKE z 30.08.2024.
 
 ## Uruchomienie na Macu
 

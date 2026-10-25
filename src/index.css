@@ -521,3 +521,246 @@ select {
   color: var(--text);
   min-height: 44px;
 }
+
+/* ───── Nauka ───── */
+h2 .badge,
+.learn-badge {
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  display: inline-grid;
+  place-items: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--subject, var(--accent));
+}
+
+.learn-ico {
+  font-size: 1.6rem;
+  width: 36px;
+  text-align: center;
+}
+
+.rich {
+  line-height: 1.55;
+}
+
+.rich h3 {
+  margin: 18px 0 6px;
+  font-size: 1.05rem;
+  color: var(--subject, var(--accent));
+}
+
+.rich h3:first-child {
+  margin-top: 0;
+}
+
+.rich p {
+  margin: 8px 0;
+}
+
+.rich ul {
+  margin: 6px 0;
+  padding-left: 20px;
+}
+
+.rich li {
+  margin: 3px 0;
+}
+
+.rich code {
+  background: var(--surface-2);
+  border-radius: 5px;
+  padding: 0 4px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin: 8px 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.rich table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.88rem;
+}
+
+.rich th,
+.rich td {
+  border: 1px solid var(--border);
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.rich th {
+  background: var(--surface-2);
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.examples .ex {
+  border-left: 3px solid var(--subject, var(--accent));
+  padding: 2px 0 2px 10px;
+}
+
+.tip {
+  background: var(--surface-2);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 10px 0;
+  font-size: 0.92rem;
+}
+
+.quiz {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quiz-item.ok {
+  border-color: var(--good);
+}
+
+.quiz-item.no {
+  border-color: var(--bad);
+}
+
+.quiz-item .q {
+  margin: 4px 0 8px;
+  line-height: 1.7;
+}
+
+.quiz-item .gap {
+  display: inline-block;
+  min-width: 40px;
+  border-bottom: 2px solid var(--subject, var(--accent));
+  text-align: center;
+  font-weight: 600;
+  padding: 0 4px;
+}
+
+.gap-input {
+  font: inherit;
+  font-size: 16px;
+  width: 9em;
+  max-width: 60%;
+  padding: 4px 8px;
+  margin: 0 4px;
+  border: 1.5px solid var(--border);
+  border-bottom: 2px solid var(--subject, var(--accent));
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.small-btn {
+  padding: 8px 14px;
+  min-height: 0;
+}
+
+.read-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  width: 100%;
+  font: inherit;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  margin: 8px 0 10px;
+}
+
+.oral-q {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 6px 0 12px;
+}
+
+.countdown {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.timer-big {
+  font-size: 2.6rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  margin: 4px 0 8px;
+  color: var(--subject, var(--accent));
+}
+
+.timer-big.warn {
+  color: var(--bad);
+}
+
+.notes {
+  width: 100%;
+  min-height: 160px;
+  font: inherit;
+  font-size: 16px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.notes-view {
+  white-space: pre-wrap;
+}
+
+.rec-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 6px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.2;
+  }
+}
+
+.checklist {
+  margin: 10px 0;
+}
+
+.check-row {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+
+.check-row input {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.scene {
+  background: var(--surface-2);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
