@@ -1,0 +1,26 @@
+{
+  "mat-2023-maj-z11": {
+    "items": [{ "label": "11 – wybierz dwa układy", "options": ["A", "B", "C", "D", "E", "F"], "correct": "CE", "pick": 2 }]
+  },
+  "mat-2023-maj-z23": {
+    "items": [
+      { "label": "23 – A albo B", "options": ["A", "B"], "correct": "A" },
+      { "label": "23 – 1, 2 albo 3", "options": ["1", "2", "3"], "correct": "2" }
+    ]
+  },
+  "mat-2023-maj-z29": {
+    "items": [
+      { "label": "29.1 – mediana", "options": ["A", "B", "C", "D", "E"], "correct": "C" },
+      { "label": "29.2 – średnia", "options": ["A", "B", "C", "D", "E"], "correct": "A" }
+    ]
+  },
+  "mat-2024-maj-z16": {
+    "items": [
+      { "label": "16 – A albo B", "options": ["A", "B"], "correct": "B" },
+      { "label": "16 – 1, 2 albo 3", "options": ["1", "2", "3"], "correct": "2" }
+    ]
+  },
+  "mat-2024-maj-z18": {
+    "items": [{ "label": "18 – wybierz dwie zależności", "options": ["A", "B", "C", "D", "E", "F"], "correct": "BF", "pick": 2 }]
+  }
+}

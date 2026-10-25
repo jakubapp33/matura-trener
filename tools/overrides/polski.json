@@ -1,0 +1,17 @@
+{
+  "pol1-2023-maj-z13": {
+    "type": "zamkniete",
+    "items": [
+      { "label": "13 – A. pozytywizm", "options": ["1", "2", "3"], "correct": "1" },
+      { "label": "13 – B. Młoda Polska", "options": ["1", "2", "3"], "correct": "3" }
+    ]
+  },
+  "pol1-2025-maj-z6": {
+    "type": "zamkniete",
+    "items": [
+      { "label": "6 – fragment A", "options": ["1", "2", "3", "4"], "correct": "1" },
+      { "label": "6 – fragment B", "options": ["1", "2", "3", "4"], "correct": "4" }
+    ]
+  },
+  "pol1-2026-maj-z1": { "scale": [0, 0, 1, 2] }
+}

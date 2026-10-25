@@ -1,0 +1,1544 @@
+[
+  {
+    "id": "mat-2026-maj-z1",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "1",
+    "topic": "logarytmy",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      4
+    ],
+    "keyPages": [
+      2
+    ],
+    "items": [
+      {
+        "label": "1",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "C"
+      }
+    ],
+    "crop": [
+      {
+        "p": 4,
+        "t": 0.073,
+        "b": 0.226
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 2,
+        "t": 0.309,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z2",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "2",
+    "topic": "procenty",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      4
+    ],
+    "keyPages": [
+      3
+    ],
+    "items": [
+      {
+        "label": "2",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "B"
+      }
+    ],
+    "crop": [
+      {
+        "p": 4,
+        "t": 0.473,
+        "b": 0.696
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 3,
+        "t": 0.073,
+        "b": 0.449
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z3",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "3",
+    "topic": "potegi",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      5
+    ],
+    "keyPages": [
+      3
+    ],
+    "items": [
+      {
+        "label": "3",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "C"
+      }
+    ],
+    "crop": [
+      {
+        "p": 5,
+        "t": 0.073,
+        "b": 0.229
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 3,
+        "t": 0.452,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z4",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "4",
+    "topic": "logarytmy",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      5
+    ],
+    "keyPages": [
+      4
+    ],
+    "items": [
+      {
+        "label": "4",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "B"
+      }
+    ],
+    "crop": [
+      {
+        "p": 5,
+        "t": 0.509,
+        "b": 0.644
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 4,
+        "t": 0.073,
+        "b": 0.382
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z5",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "5",
+    "topic": "potegi",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      6
+    ],
+    "keyPages": [
+      4
+    ],
+    "items": [
+      {
+        "label": "5 – zdanie 1",
+        "options": [
+          "P",
+          "F"
+        ],
+        "correct": "P"
+      },
+      {
+        "label": "5 – zdanie 2",
+        "options": [
+          "P",
+          "F"
+        ],
+        "correct": "P"
+      }
+    ],
+    "crop": [
+      {
+        "p": 6,
+        "t": 0.073,
+        "b": 0.254
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 4,
+        "t": 0.385,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z6",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "6",
+    "topic": "wyrazenia",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      6
+    ],
+    "keyPages": [
+      5
+    ],
+    "items": [
+      {
+        "label": "6",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "A"
+      }
+    ],
+    "crop": [
+      {
+        "p": 6,
+        "t": 0.535,
+        "b": 0.673
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 5,
+        "t": 0.073,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z7",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "7",
+    "topic": "liczby",
+    "type": "otwarte",
+    "maxPoints": 2,
+    "examPages": [
+      7
+    ],
+    "keyPages": [
+      6,
+      7,
+      8
+    ],
+    "crop": [
+      {
+        "p": 7,
+        "t": 0.073,
+        "b": 0.933
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 6,
+        "t": 0.073,
+        "b": 0.944
+      },
+      {
+        "p": 7,
+        "t": 0.048,
+        "b": 0.944
+      },
+      {
+        "p": 8,
+        "t": 0.048,
+        "b": 0.269
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z8",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "8",
+    "topic": "rownania",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      8
+    ],
+    "keyPages": [
+      8
+    ],
+    "items": [
+      {
+        "label": "8",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "C"
+      }
+    ],
+    "crop": [
+      {
+        "p": 8,
+        "t": 0.073,
+        "b": 0.323
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 8,
+        "t": 0.271,
+        "b": 0.583
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z9",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "9",
+    "topic": "rownania",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      8
+    ],
+    "keyPages": [
+      8
+    ],
+    "items": [
+      {
+        "label": "9",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "D"
+      }
+    ],
+    "crop": [
+      {
+        "p": 8,
+        "t": 0.52,
+        "b": 0.73
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 8,
+        "t": 0.585,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z10",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "10",
+    "topic": "rownania",
+    "type": "otwarte",
+    "maxPoints": 2,
+    "examPages": [
+      9
+    ],
+    "keyPages": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "crop": [
+      {
+        "p": 9,
+        "t": 0.073,
+        "b": 0.933
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 9,
+        "t": 0.073,
+        "b": 0.944
+      },
+      {
+        "p": 10,
+        "t": 0.048,
+        "b": 0.944
+      },
+      {
+        "p": 11,
+        "t": 0.048,
+        "b": 0.944
+      },
+      {
+        "p": 12,
+        "t": 0.048,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z11",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "11",
+    "topic": "uklady",
+    "type": "otwarte",
+    "maxPoints": 2,
+    "examPages": [
+      10,
+      11
+    ],
+    "keyPages": [
+      13,
+      14
+    ],
+    "crop": [
+      {
+        "p": 10,
+        "t": 0.073,
+        "b": 0.933
+      },
+      {
+        "p": 11,
+        "t": 0.048,
+        "b": 0.933
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 13,
+        "t": 0.073,
+        "b": 0.944
+      },
+      {
+        "p": 14,
+        "t": 0.048,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z12.1",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "12.1",
+    "topic": "funkcje",
+    "type": "otwarte",
+    "maxPoints": 2,
+    "examPages": [
+      12
+    ],
+    "keyPages": [
+      15
+    ],
+    "crop": [
+      {
+        "p": 12,
+        "t": 0.073,
+        "b": 0.694
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 15,
+        "t": 0.073,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z12.2",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "12.2",
+    "topic": "funkcje",
+    "type": "otwarte",
+    "maxPoints": 2,
+    "examPages": [
+      12,
+      13
+    ],
+    "keyPages": [
+      16
+    ],
+    "crop": [
+      {
+        "p": 12,
+        "t": 0.073,
+        "b": 0.513
+      },
+      {
+        "p": 13,
+        "t": 0.073,
+        "b": 0.284
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 16,
+        "t": 0.073,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z13.1",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "13.1",
+    "topic": "f-liniowa",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      14
+    ],
+    "keyPages": [
+      17
+    ],
+    "items": [
+      {
+        "label": "13.1 – zdanie 1",
+        "options": [
+          "P",
+          "F"
+        ],
+        "correct": "F"
+      },
+      {
+        "label": "13.1 – zdanie 2",
+        "options": [
+          "P",
+          "F"
+        ],
+        "correct": "F"
+      }
+    ],
+    "crop": [
+      {
+        "p": 14,
+        "t": 0.073,
+        "b": 0.689
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 17,
+        "t": 0.073,
+        "b": 0.4
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z13.2",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "13.2",
+    "topic": "f-liniowa",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      14,
+      15
+    ],
+    "keyPages": [
+      17
+    ],
+    "items": [
+      {
+        "label": "13.2",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "A"
+      }
+    ],
+    "crop": [
+      {
+        "p": 14,
+        "t": 0.073,
+        "b": 0.505
+      },
+      {
+        "p": 15,
+        "t": 0.073,
+        "b": 0.218
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 17,
+        "t": 0.402,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z14",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "14",
+    "topic": "f-kwadratowa",
+    "type": "otwarte",
+    "maxPoints": 4,
+    "examPages": [
+      16,
+      17
+    ],
+    "keyPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "crop": [
+      {
+        "p": 16,
+        "t": 0.073,
+        "b": 0.933
+      },
+      {
+        "p": 17,
+        "t": 0.048,
+        "b": 0.933
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 18,
+        "t": 0.073,
+        "b": 0.944
+      },
+      {
+        "p": 19,
+        "t": 0.048,
+        "b": 0.944
+      },
+      {
+        "p": 20,
+        "t": 0.048,
+        "b": 0.944
+      },
+      {
+        "p": 21,
+        "t": 0.048,
+        "b": 0.944
+      },
+      {
+        "p": 22,
+        "t": 0.048,
+        "b": 0.944
+      },
+      {
+        "p": 23,
+        "t": 0.048,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z15",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "15",
+    "topic": "ciagi",
+    "type": "otwarte",
+    "maxPoints": 3,
+    "examPages": [
+      18
+    ],
+    "keyPages": [
+      24,
+      25
+    ],
+    "crop": [
+      {
+        "p": 18,
+        "t": 0.073,
+        "b": 0.933
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 24,
+        "t": 0.073,
+        "b": 0.944
+      },
+      {
+        "p": 25,
+        "t": 0.048,
+        "b": 0.375
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z16",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "16",
+    "topic": "ciagi",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      19
+    ],
+    "keyPages": [
+      25
+    ],
+    "items": [
+      {
+        "label": "16",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "B"
+      }
+    ],
+    "crop": [
+      {
+        "p": 19,
+        "t": 0.073,
+        "b": 0.263
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 25,
+        "t": 0.378,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z17",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "17",
+    "topic": "ciagi",
+    "type": "otwarte",
+    "maxPoints": 1,
+    "examPages": [
+      19
+    ],
+    "keyPages": [
+      26
+    ],
+    "crop": [
+      {
+        "p": 19,
+        "t": 0.493,
+        "b": 0.665
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 26,
+        "t": 0.073,
+        "b": 0.367
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z18",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "18",
+    "topic": "trygonometria",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      20
+    ],
+    "keyPages": [
+      26
+    ],
+    "items": [
+      {
+        "label": "18",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "C"
+      }
+    ],
+    "crop": [
+      {
+        "p": 20,
+        "t": 0.073,
+        "b": 0.454
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 26,
+        "t": 0.369,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z19",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "19",
+    "topic": "planimetria",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      21
+    ],
+    "keyPages": [
+      27
+    ],
+    "items": [
+      {
+        "label": "19",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "C"
+      }
+    ],
+    "crop": [
+      {
+        "p": 21,
+        "t": 0.073,
+        "b": 0.617
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 27,
+        "t": 0.073,
+        "b": 0.365
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z20",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "20",
+    "topic": "planimetria",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      22
+    ],
+    "keyPages": [
+      27
+    ],
+    "items": [
+      {
+        "label": "20",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "B"
+      }
+    ],
+    "crop": [
+      {
+        "p": 22,
+        "t": 0.073,
+        "b": 0.597
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 27,
+        "t": 0.368,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z21",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "21",
+    "topic": "planimetria",
+    "type": "otwarte",
+    "maxPoints": 2,
+    "examPages": [
+      23
+    ],
+    "keyPages": [
+      28,
+      29,
+      30
+    ],
+    "crop": [
+      {
+        "p": 23,
+        "t": 0.073,
+        "b": 0.933
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 28,
+        "t": 0.073,
+        "b": 0.944
+      },
+      {
+        "p": 29,
+        "t": 0.048,
+        "b": 0.944
+      },
+      {
+        "p": 30,
+        "t": 0.048,
+        "b": 0.394
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z22",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "22",
+    "topic": "planimetria",
+    "type": "otwarte",
+    "maxPoints": 1,
+    "examPages": [
+      24
+    ],
+    "keyPages": [
+      30
+    ],
+    "crop": [
+      {
+        "p": 24,
+        "t": 0.073,
+        "b": 0.227
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 30,
+        "t": 0.397,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z23",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "23",
+    "topic": "trygonometria",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      24
+    ],
+    "keyPages": [
+      31
+    ],
+    "items": [
+      {
+        "label": "23",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "D"
+      }
+    ],
+    "crop": [
+      {
+        "p": 24,
+        "t": 0.491,
+        "b": 0.683
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 31,
+        "t": 0.073,
+        "b": 0.382
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z24.1",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "24.1",
+    "topic": "geometria-analityczna",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      25
+    ],
+    "keyPages": [
+      31
+    ],
+    "items": [
+      {
+        "label": "24.1",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "B"
+      }
+    ],
+    "crop": [
+      {
+        "p": 25,
+        "t": 0.073,
+        "b": 0.3
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 31,
+        "t": 0.385,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z24.2",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "24.2",
+    "topic": "planimetria",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      25
+    ],
+    "keyPages": [
+      32
+    ],
+    "items": [
+      {
+        "label": "24.2",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "D"
+      }
+    ],
+    "crop": [
+      {
+        "p": 25,
+        "t": 0.073,
+        "b": 0.163
+      },
+      {
+        "p": 25,
+        "t": 0.547,
+        "b": 0.693
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 32,
+        "t": 0.073,
+        "b": 0.382
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z25",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "25",
+    "topic": "geometria-analityczna",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      26
+    ],
+    "keyPages": [
+      32
+    ],
+    "items": [
+      {
+        "label": "25 – zdanie 1",
+        "options": [
+          "P",
+          "F"
+        ],
+        "correct": "P"
+      },
+      {
+        "label": "25 – zdanie 2",
+        "options": [
+          "P",
+          "F"
+        ],
+        "correct": "F"
+      }
+    ],
+    "crop": [
+      {
+        "p": 26,
+        "t": 0.073,
+        "b": 0.31
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 32,
+        "t": 0.385,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z26",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "26",
+    "topic": "geometria-analityczna",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      26
+    ],
+    "keyPages": [
+      33
+    ],
+    "items": [
+      {
+        "label": "26",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "D"
+      }
+    ],
+    "crop": [
+      {
+        "p": 26,
+        "t": 0.523,
+        "b": 0.734
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 33,
+        "t": 0.073,
+        "b": 0.434
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z27",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "27",
+    "topic": "stereometria",
+    "type": "otwarte",
+    "maxPoints": 2,
+    "examPages": [
+      27
+    ],
+    "keyPages": [
+      33,
+      34
+    ],
+    "crop": [
+      {
+        "p": 27,
+        "t": 0.073,
+        "b": 0.933
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 33,
+        "t": 0.437,
+        "b": 0.944
+      },
+      {
+        "p": 34,
+        "t": 0.048,
+        "b": 0.487
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z28",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "28",
+    "topic": "stereometria",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      28
+    ],
+    "keyPages": [
+      34
+    ],
+    "items": [
+      {
+        "label": "28",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "D"
+      }
+    ],
+    "crop": [
+      {
+        "p": 28,
+        "t": 0.073,
+        "b": 0.269
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 34,
+        "t": 0.49,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z29",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "29",
+    "topic": "kombinatoryka",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      28
+    ],
+    "keyPages": [
+      35
+    ],
+    "items": [
+      {
+        "label": "29",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "A"
+      }
+    ],
+    "crop": [
+      {
+        "p": 28,
+        "t": 0.533,
+        "b": 0.687
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 35,
+        "t": 0.073,
+        "b": 0.382
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z30",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "30",
+    "topic": "prawdopodobienstwo",
+    "type": "otwarte",
+    "maxPoints": 2,
+    "examPages": [
+      29
+    ],
+    "keyPages": [
+      35,
+      36
+    ],
+    "crop": [
+      {
+        "p": 29,
+        "t": 0.073,
+        "b": 0.933
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 35,
+        "t": 0.385,
+        "b": 0.944
+      },
+      {
+        "p": 36,
+        "t": 0.048,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z31",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "31",
+    "topic": "prawdopodobienstwo",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      30
+    ],
+    "keyPages": [
+      37
+    ],
+    "items": [
+      {
+        "label": "31 – zdanie 1",
+        "options": [
+          "P",
+          "F"
+        ],
+        "correct": "P"
+      },
+      {
+        "label": "31 – zdanie 2",
+        "options": [
+          "P",
+          "F"
+        ],
+        "correct": "P"
+      }
+    ],
+    "crop": [
+      {
+        "p": 30,
+        "t": 0.073,
+        "b": 0.651
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 37,
+        "t": 0.073,
+        "b": 0.4
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z32",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "32",
+    "topic": "prawdopodobienstwo",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      31
+    ],
+    "keyPages": [
+      37
+    ],
+    "items": [
+      {
+        "label": "32",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "C"
+      }
+    ],
+    "crop": [
+      {
+        "p": 31,
+        "t": 0.073,
+        "b": 0.263
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 37,
+        "t": 0.402,
+        "b": 0.944
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z33.1",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "33.1",
+    "topic": "f-kwadratowa",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      32
+    ],
+    "keyPages": [
+      38
+    ],
+    "items": [
+      {
+        "label": "33.1",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "D"
+      }
+    ],
+    "crop": [
+      {
+        "p": 32,
+        "t": 0.073,
+        "b": 0.424
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 38,
+        "t": 0.073,
+        "b": 0.4
+      }
+    ]
+  },
+  {
+    "id": "mat-2026-maj-z33.2",
+    "examId": "mat-2026-maj",
+    "subject": "matematyka",
+    "number": "33.2",
+    "topic": "optymalizacja",
+    "type": "zamkniete",
+    "maxPoints": 1,
+    "examPages": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "keyPages": [
+      38,
+      39,
+      40
+    ],
+    "items": [
+      {
+        "label": "33.2",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": "A"
+      }
+    ],
+    "crop": [
+      {
+        "p": 32,
+        "t": 0.073,
+        "b": 0.288
+      },
+      {
+        "p": 33,
+        "t": 0.073,
+        "b": 0.206
+      }
+    ],
+    "keyCrop": [
+      {
+        "p": 38,
+        "t": 0.402,
+        "b": 0.944
+      },
+      {
+        "p": 39,
+        "t": 0.048,
+        "b": 0.944
+      },
+      {
+        "p": 40,
+        "t": 0.048,
+        "b": 0.533
+      }
+    ]
+  }
+]
