@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router'
 import { AnswerPanel } from '../components/AnswerPanel'
+import { AskAi } from '../components/AskAi'
+import { Explanation } from '../components/Explanation'
 import { KeyPages, PointsPicker, TaskView } from '../components/TaskView'
 import { TopBar } from '../components/ui'
 import { EXAM_BY_ID, examLabel, subjectName, TASK_BY_ID } from '../data'
@@ -136,6 +138,8 @@ function TrainingAnswer({ task }: { task: Task }) {
                   </div>
                 )}
               </div>
+              <Explanation task={task} wrong={points !== task.maxPoints} />
+              <AskAi task={task} given={answers.map((a) => a ?? '')} />
               <KeyPages task={task} />
               <button
                 className="btn block"
@@ -165,6 +169,7 @@ function TrainingAnswer({ task }: { task: Task }) {
           ) : (
             <>
               <KeyPages task={task} open />
+              <AskAi task={task} />
               <div style={{ marginTop: 12 }}>
                 <b>Ile punktów zdobyłeś według zasad oceniania?</b>
                 <PointsPicker max={task.maxPoints} value={points} onChange={saveSelf} />

@@ -7,6 +7,8 @@ import { EXAM_BY_ID, examLabel, subjectName, tasksOfExam } from '../data'
 import { topicName } from '../data/topics'
 import { db } from '../db/progress'
 import { gradeClosed, isAutoGraded, percent } from '../lib/grading'
+import { AskAi } from '../components/AskAi'
+import { Explanation } from '../components/Explanation'
 
 export function ExamResult() {
   const { examId = '' } = useParams()
@@ -64,6 +66,7 @@ export function ExamResult() {
   const open = tasks.filter((t) => !isAutoGraded(t))
   const closedPts = tasks.filter(isAutoGraded).map((t) => gradeClosed(t, session.answers[t.id] ?? []))
   const missing = open.filter((t) => self[t.id] === undefined).length
+  const wrongClosed = tasks.filter((t) => isAutoGraded(t) && gradeClosed(t, session.answers[t.id] ?? []) < t.maxPoints)
 
   const save = async () => {
     const date = Date.now()
@@ -106,6 +109,29 @@ export function ExamResult() {
         Zadania zamknięte: <b>{closedPts.reduce((a, b) => a + b, 0)}</b> /{' '}
         {tasks.filter(isAutoGraded).reduce((s, t) => s + t.maxPoints, 0)} pkt (sprawdzone automatycznie)
       </div>
+      {wrongClosed.length > 0 && (
+        <details className="card">
+          <summary>
+            <b>Błędy w zadaniach zamkniętych ({wrongClosed.length})</b> – zobacz, jak to zrobić
+          </summary>
+          <div className="list" style={{ marginTop: 10 }}>
+            {wrongClosed.map((t) => {
+              const ans = session.answers[t.id] ?? []
+              return (
+                <div key={t.id} className="card">
+                  <b>Zadanie {t.number}</b>
+                  <div className="small">
+                    Twoja odpowiedź: {t.items!.map((_, i) => ans[i] || '—').join(', ')} · poprawna:{' '}
+                    <b>{t.items!.map((it) => it.correct).join(', ')}</b>
+                  </div>
+                  <Explanation task={t} wrong />
+                  <AskAi task={t} given={ans} />
+                </div>
+              )
+            })}
+          </div>
+        </details>
+      )}
       {open.length > 0 && (
         <>
           <h2>Oceń zadania otwarte ({open.length})</h2>

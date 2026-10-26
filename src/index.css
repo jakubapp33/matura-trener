@@ -764,3 +764,28 @@ h2 .badge,
   border-radius: 10px;
   padding: 10px 12px;
 }
+
+.ask-ai {
+  margin-top: 10px;
+}
+
+.tiny {
+  font-size: 0.75rem;
+}
+
+.linkish {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.explain {
+  background: var(--surface-2);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-top: 10px;
+}

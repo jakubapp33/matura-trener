@@ -66,3 +66,33 @@ describe('treści do nauki', () => {
     expect(normAnswer('doesn’t like')).toBe("doesn't like")
   })
 })
+
+import { TASKS } from '../data'
+import { EXPLAIN, learnLinks, strategyFor } from '../lib/hints'
+import { aiPrompt } from '../lib/ai-help'
+
+describe('pomoc przy zadaniach', () => {
+  it('każde zamknięte zadanie ma wyjaśnienie albo strategię', () => {
+    for (const t of TASKS.filter((x) => x.type === 'zamkniete')) {
+      expect(!!EXPLAIN[t.id] || !!strategyFor(t), t.id).toBe(true)
+    }
+  })
+  it('wyjaśnienia dotyczą istniejących zadań i podają poprawną odpowiedź', () => {
+    const byId = new Map(TASKS.map((t) => [t.id, t]))
+    for (const [id, text] of Object.entries(EXPLAIN)) {
+      const t = byId.get(id)
+      expect(t, id).toBeDefined()
+      // jednoliterowa odpowiedź z klucza musi pojawić się w wyjaśnieniu (zabezpieczenie przed pomyłką)
+      for (const it of t!.items ?? []) if (/^[A-D]$/.test(it.correct)) expect(text, `${id} → ${it.correct}`).toMatch(new RegExp(`\\*\\*${it.correct}\\*\\*|\\(${it.correct}\\)|${it.correct}[0-9]`))
+    }
+  })
+  it('linki do lekcji matematyki istnieją', () => {
+    for (const t of TASKS.filter((x) => x.subject === 'matematyka')) for (const l of learnLinks(t)) expect(l.label).not.toBe('Metoda krok po kroku')
+  })
+  it('pytanie do AI zawiera odpowiedź ucznia i klucz', () => {
+    const t = TASKS.find((x) => x.id === 'mat-2025-maj-z1')!
+    const p = aiPrompt(t, ['A'])
+    expect(p).toContain('Zaznaczyłem')
+    expect(p).toContain('B')
+  })
+})
